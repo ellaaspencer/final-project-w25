@@ -123,6 +123,7 @@ text-align: center;
 
  /* ----------------------------------------- */
 
+ 
 #what-people-are-saying .wrapper {
 background-color: #000;
 color: #fff;
@@ -134,24 +135,42 @@ text-align: center;
 }
 
 #what-people-are-saying .andrew-quote {
-padding-bottom: 2rem;
-}
-
-#what-people-are-saying .emely-quote {
-padding-bottom: 2rem;
+padding-bottom: 3em;
 }
 
 #what-people-are-saying .andrew {
-line-height: 4rem;
+line-height: 3rem;
+}
+
+#what-people-are-saying .emely-quote {
+padding-bottom: 3em;
 }
 
 #what-people-are-saying .emely {
-line-height: 4rem;
+line-height: 3rem;
 }
 
 #what-people-are-saying .ana {
-line-height: 4rem;
+line-height: 3rem;
 }
+
+/*
+
+I'm realizing I could have formatted this section in a simpler way by doing something like the code below, 
+however I don't want to accidentally wreck my html the night before the assignment is due, so enjoy the genius method I used above.
+
+#what-people-are-saying .quotes {
+display: grid;
+gap: 1rem;
+}
+
+#what-people-are-saying .quotes p {
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+}
+
+*/
 
  /* ----------------------------------------- */
 
