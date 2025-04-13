@@ -126,21 +126,31 @@ text-align: center;
 #what-people-are-saying .wrapper {
 background-color: #000;
 color: #fff;
-padding: 1em 0em 3em 0em;
+padding: 1em 0em 2em 0em;
 }
 
 #what-people-are-saying h2 {
 text-align: center; 
 }
 
+#what-people-are-saying .andrew-quote {
+padding-bottom: 2rem;
+}
+
+#what-people-are-saying .emely-quote {
+padding-bottom: 2rem;
+}
+
 #what-people-are-saying .andrew {
-display: flex;
-padding-bottom: 4em;
+line-height: 4rem;
 }
 
 #what-people-are-saying .emely {
-display: flex;
-padding-bottom: 4em;
+line-height: 4rem;
+}
+
+#what-people-are-saying .ana {
+line-height: 4rem;
 }
 
  /* ----------------------------------------- */
@@ -160,7 +170,8 @@ gap: 1rem;
 }
 
 #try-it-with img {
-border-radius: 10px;
+border-top-left-radius: 10px;   
+border-top-right-radius: 10px;
 }
 
 #try-it-with .ride-or-die img {
@@ -195,7 +206,6 @@ max-width: 100%;
 
 #try-it-with .cookie-monsta {
 background-color: #f8fafc; 
-border-radius: 20px;   
 text-align: center;
 }
 
@@ -222,4 +232,81 @@ color:#fff;
 background-color: #000;
 padding: 1em;
 text-align: center;
+}
+
+/* ----------------------------------------- */
+
+@media screen and (min-width: 768px) {
+
+#sweethearts-affair .product-shots {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 1rem;
+padding-left: .5em;
+padding-right: .5em;
+}
+
+#sweethearts-affair .product-shot-1 {
+grid-column: 1;
+grid-row: 1;
+max-width: 100%;
+}
+    
+#sweethearts-affair .product-shot-2 {
+grid-column: 2;
+grid-row: 1;
+max-width: 100%;
+}
+    
+#sweethearts-affair .product-shot-3 {
+grid-column: 1;
+grid-row: 2;
+max-width: 100%;
+}
+    
+#sweethearts-affair .product-shot-4 {
+grid-column: 2;
+grid-row: 2;
+max-width: 100%;
+}
+
+#behind-the-dough .behind-the-dough-text {
+display: flex;
+gap: 2.5rem;
+}
+
+#what-people-are-saying .quotes {
+display: flex;
+gap: 2rem;
+}
+
+#what-people-are-saying .text {
+margin-bottom: -3em;
+}
+
+#try-it-with .product-images {
+display: flex;
+}
+
+}
+
+/* ----------------------------------------- */
+
+@media screen and (min-width: 960px) {
+
+#sweethearts-affair .product-shots {
+display: grid;
+grid-template-columns: repeat(2,1fr);
+grid-template-rows: repeat(2,1fr);
+gap: 1rem;
+padding-left: .5em;
+padding-right: .5em;
+}
+
+#sweethearts-affair .wrapper {
+display: flex;
+align-items: center;
+}
+
 }
