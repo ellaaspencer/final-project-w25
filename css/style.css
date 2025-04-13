@@ -98,10 +98,6 @@ max-width: 100%;
 font-weight: 500;
 }
 
-#sweethearts-affair .bold-text {
-font-weight: 700;
-}
-
 #sweethearts-affair .btn {
 color: #fff;
 background-color: #000;
@@ -157,7 +153,7 @@ line-height: 3rem;
 /*
 
 I'm realizing I could have formatted this section in a simpler way by doing something like the code below, 
-however I don't want to accidentally wreck my html the night before the assignment is due, so enjoy the genius method I used above.
+however I don't want to accidentally wreck my html the night before the assignment is due, so enjoy the method employed above.
 
 #what-people-are-saying .quotes {
 display: grid;
